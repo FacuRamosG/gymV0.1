@@ -1,0 +1,136 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TableAccess from '../components/TableAcces.astro';
+import SendMessage from '../components/SendMessage.astro';
+
+---
+
+<Layout title="VASA FITNESS || Seattle">
+	<main class="">
+		<section class="relative h-[70vh] mt-[100px]">
+			<video playsinline
+			 src="https://vasafitness.com/wp-content/uploads/2020/11/16652_Location-Headers_Phoenix-Northern.mp4"
+			 autoplay 
+			 muted 
+			 loop 
+			 class="videoTop object-cover w-full"></video>
+			 <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full">
+				<h1 class="text-7xl fontMontserrat text-white text-center">VASA, FITNESS</h1>
+			 </div>
+			 <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full -z-10 bg-[#E41D38]">
+			 </div>
+		</section>
+		<!-- TABLE OF PRICING -->
+		<section class="mx-auto max-w-[1050px]  my-10 fontMontserrat p-4">
+			<!-- <h1 class="text-[#E41D38] text-6xl mb-6  ">VASA</h1> -->
+			<div class="flex flex-col sm:flex-row gap-3 items-center sm:items-end justify-between">
+				<div class=" w-[300px] h-[400px] bg-white flex flex-col gap-2 p-4 text-center rounded-xl">
+					<h1 class=" text-2xl font-semibold text-[#555] mb-2">BASIC</h1>
+					<div class="flex justify-center items-end">
+						<h2 class="text-3xl text-[#E41D38]">$9.99</h2><span class="text-xs text-[#E41D38]">/month</span>
+					</div>
+					<p class="text-sm text-[#E41D38]">NO ANNUAL COMMITMENT</p>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mt-5"></div>
+					<h1 class="text-xl text-[#E41D38] ">$0.00 ENROLLMENT FEE
+						Special Offer!</h1>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mb-5"> </div>
+					<a href="">
+						<button class="bg-[#E41D38] px-7 py-4 text-[#efefef]">GET BASIC</button>
+					</a>
+					<h1 class="text-lg text-[#E41D38] ">ACCESS TO ONE GYM ONLY</h1>
+				</div>
+
+				<div class=" w-[300px] h-[500px] bg-white flex flex-col gap-2 p-4 text-center rounded-xl">
+					<h1 class=" text-2xl font-semibold text-[#555] mb-2">FITNNSES</h1>
+					<div class="flex justify-center items-end">
+						<h2 class="text-3xl text-[#E41D38]">$24.99</h2><span class="text-xs text-[#E41D38]">/month</span>
+					</div>
+					<p class="text-sm text-[#E41D38]">NO ANNUAL COMMITMENT</p>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mt-5"></div>
+					<h1 class="text-xl text-[#E41D38] ">$0.00 ENROLLMENT FEE
+						Special Offer!</h1>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mb-5"> </div>
+					<a href="">
+						<button class="bg-[#E41D38] px-7 py-4 text-[#efefef]">GET BASIC</button>
+					</a>
+					<h1 class="text-lg text-[#E41D38] ">MORE AMENITIES & ALL LOCATIONS</h1>
+					<p class="text-sm text-[#555]">Access to all VASA locations
+						Unlimited Group Fitness Classes</p>
+				</div>
+
+				<div class=" w-[300px] h-[550px] bg-white flex flex-col gap-2 p-4 text-center rounded-xl">
+					<h1 class=" text-2xl font-semibold text-[#555] mb-2">STUDIO</h1>
+					<div class="flex justify-center items-end">
+						<h2 class="text-3xl text-[#E41D38]">$49.99</h2><span class="text-xs text-[#E41D38]">/month</span>
+					</div>
+					<p class="text-sm text-[#E41D38]">NO ANNUAL COMMITMENT</p>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mt-5"></div>
+					<h1 class="text-xl text-[#E41D38] ">$0.00 ENROLLMENT FEE
+						Special Offer!</h1>
+					<div class="w-full h-[2px] bg-[#9d9d9d] mb-5"> </div>
+					<a href="">
+						<button class="bg-[#E41D38] px-7 py-4 text-[#efefef]">GET BASIC</button>
+					</a>
+					<h1 class="text-lg text-[#E41D38] ">UNLIMITED</h1>
+					<p class="text-sm text-[#555]">Unlimited InBody Scan</p>
+					<span class="text-xs text-[#455] font-normal">($30 Per Scan Value)</span>
+
+					<p class="text-sm text-[#555]">Unlimited STUDIO RED HIIT Classes</p>
+
+				</div>
+			</div>
+
+			<TableAccess />
+
+		</section>
+
+		<section class="">
+			<div class="w-full h-[300px] bg-[#E41D38] ">
+				<div class="max-w-[1050px] h-full mx-auto flex flex-col justify-center items-center gap-7">
+					<h1 class="text-5xl sm:text-8xl text-white text-center">VASA FITNEES</h1>
+					<p class="text-xl text-white text-center -mt-7">What are you waiting for? let make a try</p>
+					<a href="">
+						<button class="px-8 py-4 border text-white font-bold hover:bg-white hover:text-[#E41D38] transition-all">GET YOU TRIAL PASS.</button>
+					</a>
+
+				</div>
+
+			</div>
+		</section>
+
+		<section class="bg-white py-[105px]">
+			<div class="max-w-[1050px] mx-auto">
+				<div class="flex flex-col justify-center items-center gap-4 mb-14 p-4">
+					<h1 class="text-3xl sm:text-5xl font-bold text-[#555]">RECEIVE YOUR FREE TRIAL PASS</h1>
+					<a href="" class="flex gap-1">
+						<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin text-[#e31c37]"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
+						<h1 class="text-xl ">400 Broad St, Seattle</h1>
+					</a>
+				</div>
+				
+				<SendMessage />
+				<p class="text-center mt-3 text-[#444] text-xs">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+			</div>
+		</section>
+
+
+	</main>
+</Layout>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+	main {
+		margin: auto;
+
+	}
+	.videoTop{
+		height: 100% !important;
+	}
+	.fontMontserrat{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 800;
+	}
+	
+</style>
