@@ -12,6 +12,7 @@ import SendMessage from '../components/SendMessage.astro';
 			 src="https://vasafitness.com/wp-content/uploads/2020/11/16652_Location-Headers_Phoenix-Northern.mp4"
 			 autoplay 
 			 muted 
+			 id="miVideo"
 			 loop 
 			 class="videoTop object-cover w-full"></video>
 			 <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full">
@@ -19,6 +20,12 @@ import SendMessage from '../components/SendMessage.astro';
 			 </div>
 			 <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full -z-10 bg-[#E41D38]">
 			 </div>
+			 <script>
+				document.addEventListener('DOMContentLoaded', function() {
+				  var video = document.getElementById('miVideo') as HTMLVideoElement;
+				  video.play();
+				});
+				</script>
 		</section>
 		<!-- TABLE OF PRICING -->
 		<section class="mx-auto max-w-[1050px]  my-10 fontMontserrat p-4">
